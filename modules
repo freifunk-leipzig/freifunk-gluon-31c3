@@ -1,0 +1,39 @@
+GLUON_SITE_FEEDS='solarfestival-packages'
+GLUON_SITE_FEEDS='solarfestival-packages'
+PACKAGES_MY_OWN_PACKAGES_REPO=https://github.com/freifunk-leipzig/solarfestival-packages.git
+PACKAGES_MY_OWN_PACKAGES_COMMIT=da7e06f1a59a4517e08215a666c7bf73ebbf9e0e
+PACKAGES_MY_OWN_PACKAGES_BRANCH=master
+
+GLUON_SITE_FEEDS='luci2'
+GLUON_SITE_FEEDS='luci2'
+PACKAGES_MY_OWN_PACKAGES_REPO=http://git.openwrt.org/project/luci2/ui.git
+PACKAGES_MY_OWN_PACKAGES_COMMIT=e452ca693af5278ff2ddc69b6f8ed0f346c98fb1
+PACKAGES_MY_OWN_PACKAGES_BRANCH=master
+
+
+
+
+
+
+# This file allows specifying additional repositories to use
+# when building gluon.
+#
+# In most cases, it is not required so don't add it.
+
+##	GLUON_SITE_FEEDS
+#		for each feed name given, add the corresponding PACKAGES_* lines
+#		documented below
+#GLUON_SITE_FEEDS='my_own_packages'
+
+##	PACKAGES_$feedname_REPO
+#		the  git repository from where to clone the package feed
+#PACKAGES_MY_OWN_PACKAGES_REPO=https://github.com/.../my-own-packages.git
+
+
+##	PACKAGES_$feedname_COMMIT
+#		the version/commit of the git repository to clone
+#PACKAGES_MY_OWN_PACKAGES_COMMIT=123456789aabcda1a69b04278e4d38f2a3f57e49
+
+##  PACKAGES_$feedname_BRANCH
+#   the branch to check out
+#PACKAGES_MY_OWN_PACKAGES_BRANCH=my_branch
