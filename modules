@@ -1,10 +1,8 @@
 GLUON_SITE_FEEDS='solarfestival-packages'
-GLUON_SITE_FEEDS='solarfestival-packages'
 PACKAGES_MY_OWN_PACKAGES_REPO=https://github.com/freifunk-leipzig/solarfestival-packages.git
 PACKAGES_MY_OWN_PACKAGES_COMMIT=da7e06f1a59a4517e08215a666c7bf73ebbf9e0e
 PACKAGES_MY_OWN_PACKAGES_BRANCH=master
 
-GLUON_SITE_FEEDS='luci2'
 GLUON_SITE_FEEDS='luci2'
 PACKAGES_MY_OWN_PACKAGES_REPO=http://git.openwrt.org/project/luci2/ui.git
 PACKAGES_MY_OWN_PACKAGES_COMMIT=e452ca693af5278ff2ddc69b6f8ed0f346c98fb1
