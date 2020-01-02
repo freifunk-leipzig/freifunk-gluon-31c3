@@ -4,14 +4,22 @@
 #               depending on the combination of features listed
 
 GLUON_FEATURES := \
+        alfred \
+        authorized-keys \
         autoupdater \
+        config-mode-geo-location-osm \
         ebtables-filter-multicast \
         ebtables-filter-ra-dhcp \
         mesh-batman-adv-15 \
         mesh-vpn-fastd \
+        neighbour-info \
+        radvd \
         respondd \
         status-page \
         web-advanced \
+        web-model \
+        web-node-role \
+        web-private-wifi \
         web-wizard
 
 ##      GLUON_SITE_PACKAGES
@@ -21,14 +29,6 @@ GLUON_FEATURES := \
 #               chosen feature flags
 
 GLUON_SITE_PACKAGES := \
-        gluon-alfred \
-        gluon-authorized-keys \
-        gluon-config-mode-geo-location-osm \
-        gluon-neighbour-info \
-        gluon-radvd \
-        gluon-web-model \
-        gluon-web-node-role \
-        gluon-web-private-wifi \
         haveged \
         iwinfo 
 
@@ -39,8 +39,6 @@ GLUON_CHECKOUT ?= $(DEFAULT_GLUON_CHECKOUT)
 DEFAULT_GLUON_RELEASE := 1.0+exp$(shell date '+%Y%m%d')
 
 DEFAULT_GLUON_BRANCH := experimental
-
-GLUON_ATH10K_MESH ?= 11s
 
 GLUON_WLAN_MESH ?= 11s
 
