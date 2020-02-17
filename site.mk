@@ -40,8 +40,6 @@ DEFAULT_GLUON_RELEASE := 1.0+exp$(shell date '+%Y%m%d')
 
 DEFAULT_GLUON_BRANCH := experimental
 
-GLUON_WLAN_MESH ?= 11s
-
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 
