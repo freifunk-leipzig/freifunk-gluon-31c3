@@ -38,7 +38,7 @@ msgstr ""
 
 msgid "gluon-config-mode:altitude-help"
 msgstr ""
-"<p>Aus Vereinfachungsgründen ktmeannst du hier die Höhe deines Knoten über "
+"<p>Aus Vereinfachungsgründen kannst du hier die Höhe deines Knoten über "
 "Straßenniveau angeben.</p>"
 
 msgid "gluon-config-mode:pubkey"
