@@ -29,10 +29,9 @@ GLUON_FEATURES := \
 #               chosen feature flags
 
 GLUON_SITE_PACKAGES := \
-        haveged \
         iwinfo 
 
-DEFAULT_GLUON_RELEASE := 1.4.3+exp$(shell date '+%Y%m%d')
+DEFAULT_GLUON_RELEASE := 1.5+exp$(shell date '+%Y%m%d')
 # Allow overriding the release number from the command line
 
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
